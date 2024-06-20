@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mittagessen - Lunch | Bavarian Brauhaus</title>
+    <link rel="stylesheet" href="new 1.css">
+    <script src="new 3.js"></script>
+</head>
+
+<body>
+   <button id="nav-toggle" class="nav-toggle">☰</button>
+    <nav id="nav-bar" class="nav-bar">
+        <ul>
+            <a class="site-brand" href="index.html" title="">
+                <img class="img-responsive site-logo" alt="Bavarian Brauhaus Logo" src="https://www.thebavarianbrauhaus.com/wp-content/uploads/2015/04/BavarianBrauhaus_logo300pxW-copy.png">
+            </a>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li onclick="myFunction()" style="color:black; cursor: pointer;">Menu</li>
+            <div id="hide_Div" style="display: none;">
+                <ul>
+                    <li><a href="./mealdish.html" title=""> • The Ratskeller - Bar</a></li>
+                    <li><a href="./dnd.html" title=""> • Mittagessen - Lunch</a></li>
+                    <li><a href="./dinner.html"> • Abendessen - Dinner</a></li>
+                </ul>
+            </div>
+            <li><a href="Daily Special.html">Daily Special</a></li>
+            <li><a href="Catering.html">Catering</a></li>
+            <li><a href="location.html">Location</a></li>
+        </ul>
+        <nav class="nav-footer">
+            <p class="nav-footer-social-buttons">
+                <a href="https://www.facebook.com/thebavarianbrauhaus/" target="_blank">
+                    <img src="./assets/facebook.png" alt="Facebook" style="width:30px;height:30px;"></a>
+            </p>
+            <p>410-712-0300</p>
+        </nav>
+    </nav>
+    <main id="main-collapse">
+        
+
+        <div><h1>Mittagessen - Lunch</h1></div><br>
+
+        <div class="hero-full-wrapper">
+            <div class="grid">
+                <div class="gutter-sizer"></div>
+                <div class="grid-sizer"></div>
+                <p>Dressings: Vinaigrette, Poppy Seed, Ranch, Bleu Cheese, Caesar, Oil &amp; Vinegar, Pesto Ranch</p>
+<p><span style="color: #993300;">Add to Any Salad:</span> Grilled Shrimp $8.99 | Grilled Chicken $5.99</p>
+<p>Fresh Crab Meat-$8.99</p>
+<p><span style="font-size: 25px; color: #993300;">Brauhaus Salat</span><br />
+Mixed Field Greens, Grape Tomatoes, Cucumbers, Carrot, Red Onion, Croutons<br />
+$7.99</p>
+<p><span style="font-size: 25px; color: #993300;">Caesar Salat</span><br />
+Romaine lettuce, Shaved Parmesan, Croutons<br />
+$8.99</p>
+<p><span style="font-size: 25px; color: #993300;">Spinat Salad</span><br />
+Spinach Salad with Grape Tomatoes, Berries, Sliced Cucumber, Hard Boiled Egg, Red Onion<br />
+(Bacon upon request)<br />
+$9.99</p>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function (event) {
+                masonryBuild();
+            });
+        </script>
+
+    </main>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+            navbarToggleSidebar();
+            navActivePage();
+        });
+    </script>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("hide_Div");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

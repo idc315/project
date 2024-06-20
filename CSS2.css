@@ -1,0 +1,260 @@
+h1 {
+  color: maroon;
+}
+#title
+{
+  font-size: 80px;
+  font-family: "Jacquard 12 Charted", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background-color: #ebf0ee;
+  text-align: center;
+  font-family: "Germania One", system-ui, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #3d3a3a;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+ul {
+  list-style-type: none;
+}
+hr {
+  border-color: #7CB9E8;
+  border-style: dotted;
+  border-width: 2px;
+  margin: 50px;
+}
+.slideshow-container {
+  position: relative;
+  z-index: 500; 
+  max-width: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+.slide {
+  display: none;
+}
+.slide img {
+  width: 100%;
+  height: auto;
+}
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+
+
+
+
+.nav-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #DA291C;
+    border: none;
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.nav-bar {
+    position: fixed;
+	text-align: left;
+	display:none;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #DA291C;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.3s;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    padding: 8px 16px;
+    color: black;
+}
+
+.nav-bar ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+
+.nav-bar ul li a:hover {
+    background-color: #575757;
+}
+
+nav.sidebar {
+    width: 200px;
+    background-color: #DA291C;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+}
+
+.navbar-toggle {
+    background-color: white;
+    border: none;
+    color: #DA291C;
+    font-size: 24px;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.nav li {
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.nav li a, .nav li {
+    color: black; 
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+
+.nav-bar ul li ul {
+    list-style-type: none;
+    padding-left: 20px; 
+}
+
+.nav-bar ul li ul li {
+    font-size: calc(13px); 
+    color: #2e2e2e; 
+    position: relative; 
+}
+
+.nav-bar ul li ul li:before {
+    content: "•"; 
+    position: absolute;
+    left: -10px; 
+    color: #2e2e2e; 
+}
+
+.nav-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nav-footer a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-footer-social-buttons {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-footer-social-buttons img {
+    width: 30px;
+    height: 30px; 
+    padding: 0;
+    border: none; 
+    margin-right: 10px;
+}
+
+#main-collapse {
+    margin-left: 0;
+    transition: margin-left 0.3s;
+}
+
+.history img {
+    display: block;
+    margin: 20px auto;
+}
+
+.text-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-container h3 {
+    font-family: 'Germania One', cursive;
+    color: black; 
+    margin-top: 0;
+}
+
+.text-container p {
+    margin-bottom: 20px;
+}
+
+.text-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+.site-logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; 
+}
+
+@media (max-width: 767px) {
+    nav.sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    #main-collapse {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mittagessen - Lunch | Bavarian Brauhaus</title>
+    <link rel="stylesheet" href="new 1.css">
+    <script src="new 3.js"></script>
+</head>
+
+<body>
+    <button id="nav-toggle" class="nav-toggle">☰</button>
+    <nav id="nav-bar" class="nav-bar">
+        <ul>
+            <a class="site-brand" href="index.html" title="">
+                <img class="img-responsive site-logo" alt="Bavarian Brauhaus Logo" src="https://www.thebavarianbrauhaus.com/wp-content/uploads/2015/04/BavarianBrauhaus_logo300pxW-copy.png">
+            </a>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li onclick="myFunction()" style="color:black; cursor: pointer;">Menu</li>
+            <div id="hide_Div" style="display: none;">
+                <ul>
+                    <li><a href="./mealdish.html" title=""> • The Ratskeller - Bar</a></li>
+                    <li><a href="./dnd.html" title=""> • Mittagessen - Lunch</a></li>
+                    <li><a href="./dinner.html"> • Abendessen - Dinner</a></li>
+                </ul>
+            </div>
+            <li><a href="Daily Special.html">Daily Special</a></li>
+            <li><a href="Catering.html">Catering</a></li>
+            <li><a href="location.html">Location</a></li>
+        </ul>
+        <nav class="nav-footer">
+            <p class="nav-footer-social-buttons">
+                <a href="https://www.facebook.com/thebavarianbrauhaus/" target="_blank">
+                    <img src="./assets/facebook.png" alt="Facebook" style="width:30px;height:30px;"></a>
+            </p>
+            <p>410-712-0300</p>
+        </nav>
+    </nav>
+    <main id="main-collapse">
+      <p style="text-align: center;"><strong>Bavarian Brauhaus will be closed July 19-23rd. reopen July 26th 3pm. </strong><strong><br />
+        <strong>MIKE SURRATT,3rd Saturday each Month!! MAKE YOU RESERVATIONS TODAY</strong><br />
+        <strong>BaySide Big Band 1st and 3rd Wednesday each month (closed 3rd week of July)!! MAKE YOUR RESERVATIONS TODAY</strong></p>
+        <h2 style="text-align: center;">BAVARIAN BRAUHAUS IS OPEN Tuesday-Saturday 3-9ishPM</h2>
+        <p style="text-align: center;">OUTDOOR/INDOOR SEATING AND TAKE OUT</p>
+        <p style="text-align: center;">HAPPY HOUR IN THE BAR TUESDAY-FRIDAY 3-7PM</p>
+        <h2 style="text-align: center;">MAX AND I LOOK FORWARD TO SEEING EVERYONE</h2>
+        <p>&nbsp;</p>
+        <div style="font-size: 30px; width: 100%; color: #da291c; background-color: #f2cc00; font-weight: bold; padding-left: 25px; margin-top: 50px;">Daily Specials</div>
+<div style="font-size: 25px; color: #993300; margin-top: 25px;"><em>Try our Flavored Tap Beers - Blueberry, pineapple, cherry ,raspberry, German chocolate cake, banana, peach, chocolate and blood orange.</em></div>
+<div>Try a shot of Berentzen Cordial, keep the boot shot glass&#8230; Choice of cherry, apple, pear or peach</div>
+<div></div>
+<div style="font-size: 30px; width: 100%; color: #da291c; background-color: #f2cc00; font-weight: bold; padding-left: 25px; margin-top: 50px;"></div>
+<div style="font-size: 22px; line-height: 32px;">
+<p>&nbsp;</p>
+</div>
+		    </div>
+		</div>
+	    <div class="clear"></div>
+	</div><!-- end main-content-padding -->
+    </div><!-- end main-content -->
+</div><!-- end content-container -->
+
+<div class="clear"></div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function (event) {
+                masonryBuild();
+            });
+        </script>
+
+    </main>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+            navbarToggleSidebar();
+            navActivePage();
+        });
+    </script>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("hide_Div");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
