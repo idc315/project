@@ -1,15 +1,11 @@
-<html lang="en">
 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta name="keywords" content="German Restaurant, Restaurants in Maryland, Dinner, Family Restaurant, Bar, Restaurants in Hanover Maryland, Drinks for dinner">
-    <title>Abendessen - Dinner | Bavarian Brauhaus</title>
-    <link rel="stylesheet" href="new 1.css">
+     <link rel="stylesheet" href="new 1.css">
     <script src="new 3.js"></script>
-</head>
-
-<body>
+    <title>Menu</title>
     <button id="nav-toggle" class="nav-toggle">☰</button>
     <nav id="nav-bar" class="nav-bar">
         <ul>
@@ -39,34 +35,93 @@
         </nav>
     </nav>
     <main id="main-collapse">
-        <div class="container">
-  <div style="margin: auto;">
-<div style="max-width: 1000px">
-  </div>
-        <div class="text-container">
-            <div class="text">
-              <div style="background-image:url(https://www.thebavarianbrauhaus.com/wp-content/uploads/2014/11/Blobs-Park-write-up_Background.png?id=147);background-size: cover; background-position: center; padding: 10px;">
-
-      <div><h1>Abendessen - Dinner - Getranke – Beverages</h1>
-        </div><br>
-
-        <div class="hero-full-wrapper">
-            <div class="grid">
-                <div class="gutter-sizer"></div>
-                <div class="grid-sizer"></div>
-                <p><span style="font-size: 25px; color: #993300;">Soda</span><br />
-                   Coke | Diet Coke | Ginger Ale | Root Beer | Lemonade | Sprite<br />
-                    
-                    <p><span style="font-size: 25px; color: #993300;">Bottled Water</span><br />
-               <br />
-                    <p><span style="font-size: 25px; color: #993300;">Fresh brewed Tea, Sweet or unsweetened</span>
-                      <p><span style="font-size: 25px; color: #993300;">Kaffe – Coffee</span>
-                        <p><span style="font-size: 25px; color: #993300;">Hot – Iced Tea</span>
-             <br />
+  <style>
+        body {
+            font-family: 'Germania One';
+        }
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .text-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .text {
+            width: 100%;
+            max-width: 1000px;
+        }
+        .background-section {
+            background-size: cover;
+            background-position: center;
+            padding: 10px;
+        }
+        .hero-full-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .menu-item {
+            width: 45%;
+            border: 1px solid black;
+            margin: 10px 0;
+            padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .food-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .menu-title {
+            font-size: 25px;
+            color: #993300;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="margin: auto;">
+            <div style="max-width: 1000px"></div>
+            <div class="text-container">
+                <div class="text">
+                    <div class="background-section" style="background-image:url('https://www.thebavarianbrauhaus.com/wp-content/uploads/2014/11/Blobs-Park-write-up_Background.png?id=147'); background-size: cover; background-position: center; padding: 10px;">
+                        <div><h1>Abendessen - Dinner - Getranke – Beverages</h1></div><br>
+                        <div class="hero-full-wrapper">
+                            <div class="menu-item">
+                                <img src="https://i5.walmartimages.com/asr/cd223e5d-e55a-4093-99e6-c2e265e9b36f.b0169d25a3dc9b5aa623d2f1f274eabe.jpeg" alt="Baverishcher Raditeller" class="food-image">
+                                <p><span class="menu-title">Bottled Water</span></p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://m.media-amazon.com/images/I/81JLNKLTLGL.jpg" alt="Wurst Sampler Platter" class="food-image">
+                                <p><span class="menu-title">Soda</span><br>
+                                Coke | Diet Coke | Ginger Ale | Root Beer | Lemonade | Sprite</p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://sumida.goguynet.jp/wp-content/uploads/sites/60/2021/01/2363506_m.jpg" class="food-image">
+                                <p><span class="menu-title">Kaffe – Coffee</span></p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://images.onlymyhealth.com/imported/images/2021/January/19_Jan_2021/big1-TEA.jpg" alt="Kartoffelpuffer" class="food-image">
+                                <p><span class="menu-title">Hot – Iced Tea</span></p>
+                            </div>
+                          <div class="menu-item">
+                                <img src="https://mamadoskitchen.com/wp-content/uploads/2022/06/Kadho-01.jpg" alt="Hot Crab Dip with Bread Toast" class="food-image">
+                                <p><span class="menu-title">Fresh brewed Tea, Sweet or unsweetened</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-
+    </div>
 </body>
-
 </html>
