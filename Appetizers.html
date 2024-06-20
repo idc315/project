@@ -1,15 +1,9 @@
-<html lang="en">
 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="German Restaurant, Restaurants in Maryland, Dinner, Family Restaurant, Bar, Restaurants in Hanover Maryland, Appetizer for dinner">
-    <title>Abendessen - Dinner | Bavarian Brauhaus</title>
-    <link rel="stylesheet" href="new 1.css">
-    <script src="new 3.js"></script>
-</head>
-
-<body>
+    <title>Menu</title>
     <button id="nav-toggle" class="nav-toggle">☰</button>
     <nav id="nav-bar" class="nav-bar">
         <ul>
@@ -39,33 +33,91 @@
         </nav>
     </nav>
     <main id="main-collapse">
-        <div class="container">
-  <div style="margin: auto;">
-<div style="max-width: 1000px">
-  </div>
-        <div class="text-container">
-            <div class="text">
-              <div style="background-image:url(https://www.thebavarianbrauhaus.com/wp-content/uploads/2014/11/Blobs-Park-write-up_Background.png?id=147);background-size: cover; background-position: center; padding: 10px;">
-
-      <div><h1>Abendessen - Dinner - Appetizers</h1>
-        </div><br>
-
-        <div class="hero-full-wrapper">
-            <div class="grid">
-                <div class="gutter-sizer"></div>
-                <div class="grid-sizer"></div>
-                <p><span style="font-size: 25px; color: #993300;">Baverishcher Raditeller</span><br />
-                    Bavarian Salted White Radishes served with Pumpernickel Bread and Chives<br />
-                    
-                    <p><span style="font-size: 25px; color: #993300;">Wurst Sampler Platter</span><br />
-                    Choose of Any 4: Brat, Apple Brat, Bauern, Weiss, Knack, Debreziner, Bier or Curry<br />
-                    <p><span style="font-size: 25px; color: #993300;">Hot Crab Dip with Bread Toast</span><br />
-                    <p><span style="font-size: 25px; color: #993300;">Kartoffelpuffer<br />
-                    </span> Potato Pancakes-Served with Sour Cream and Applesauce</p>      
+  <style>
+        body {
+            font-family: 'Germania One';
+        }
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .text-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .text {
+            width: 100%;
+            max-width: 1000px;
+        }
+        .background-section {
+            background-size: cover;
+            background-position: center;
+            padding: 10px;
+        }
+        .hero-full-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .menu-item {
+            width: 45%;
+            border: 1px solid black;
+            margin: 10px 0;
+            padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .food-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .menu-title {
+            font-size: 25px;
+            color: #993300;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="margin: auto;">
+            <div style="max-width: 1000px"></div>
+            <div class="text-container">
+                <div class="text">
+                    <div class="background-section" style="background-image:url('https://www.thebavarianbrauhaus.com/wp-content/uploads/2014/11/Blobs-Park-write-up_Background.png?id=147'); background-size: cover; background-position: center; padding: 10px;">
+                        <div><h1>Abendessen - Dinner - Appetizers</h1></div><br>
+                        <div class="hero-full-wrapper">
+                            <div class="menu-item">
+                                <img src="https://q6qq7p.media.zestyio.com/bayerisher-raditeller.69fd10c3efd4445d5faaf523ec18920f.jpg" alt="Baverishcher Raditeller" class="food-image">
+                                <p><span class="menu-title">Baverishcher Raditeller</span><br>
+                                Bavarian Salted White Radishes served with Pumpernickel Bread and Chives</p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://thefoodgallery.files.wordpress.com/2017/12/20171216_wurst.jpg?w=1200" alt="Wurst Sampler Platter" class="food-image">
+                                <p><span class="menu-title">Wurst Sampler Platter</span><br>
+                                Choose of Any 4: Brat, Apple Brat, Bauern, Weiss, Knack, Debreziner, Bier or Curry</p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://oursaltykitchen.com/wp-content/uploads/2020/10/hot-crab-dip-featured-image.jpg" alt="Hot Crab Dip with Bread Toast" class="food-image">
+                                <p><span class="menu-title">Hot Crab Dip with Bread Toast</span></p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://i0.wp.com/herdgefluester.de/wp-content/uploads/2015/11/Kartoffelpuffer-scaled.jpg?fit=2560%2C2560&ssl=1" alt="Kartoffelpuffer" class="food-image">
+                                <p><span class="menu-title">Kartoffelpuffer</span><br>
+                                Potato Pancakes-Served with Sour Cream and Applesauce</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-
+    </div>
 </body>
-
 </html>
