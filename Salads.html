@@ -1,15 +1,11 @@
-<html lang="en">
 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta name="keywords" content="German Restaurant, Restaurants in Maryland, Dinner, Family Restaurant, Restaurants in Hanover Maryland, Salads">
-    <title>Abendessen - Dinner | Bavarian Brauhaus</title>
-    <link rel="stylesheet" href="new 1.css">
+     <link rel="stylesheet" href="new 1.css">
     <script src="new 3.js"></script>
-</head>
-
-<body>
+    <title>Menu</title>
     <button id="nav-toggle" class="nav-toggle">☰</button>
     <nav id="nav-bar" class="nav-bar">
         <ul>
@@ -39,35 +35,83 @@
         </nav>
     </nav>
     <main id="main-collapse">
-        <div class="container">
-  <div style="margin: auto;">
-<div style="max-width: 1000px">
-  </div>
-        <div class="text-container">
-            <div class="text">
-              <div style="background-image:url(https://www.thebavarianbrauhaus.com/wp-content/uploads/2014/11/Blobs-Park-write-up_Background.png?id=147);background-size: cover; background-position: center; padding: 10px;">
-
-      <div><h1>Abendessen - Dinner - Salads</h1>
-        </div><br>
-
-        <div class="hero-full-wrapper">
-            <div class="grid">
-                <div class="gutter-sizer"></div>
-                <div class="grid-sizer"></div>
-                <p><br> Dressings: Vinaigrette, Poppy Seed, Ranch, Bleu Cheese, Caesar, Oil & Vinegar, Pesto Ranch</br>
-
-                  <br>Add to Any Salad: Grilled Shrimp | Grilled Chicken</br>
-                  <span style="font-size: 25px; color: #993300;">Brauhaus Salat</span><br />
-                    Romaine, Grape Tomatoes, Cucumbers, Carrot, Red Onion, Croutons
-Add a side salad to any entree<br />
-                    
-                    <p><span style="font-size: 25px; color: #993300;">Caesar Salat</span><br />
-                    Romaine lettuce, Shaved Parmesan, Croutons<br />
-                       
+  <style>
+        body {
+            font-family: 'Germania One';
+        }
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .text-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .text {
+            width: 100%;
+            max-width: 1000px;
+        }
+        .background-section {
+            background-size: cover;
+            background-position: center;
+            padding: 10px;
+        }
+        .hero-full-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .menu-item {
+            width: 45%;
+            border: 1px solid black;
+            margin: 10px 0;
+            padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .food-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .menu-title {
+            font-size: 25px;
+            color: #993300;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="margin: auto;">
+            <div style="max-width: 1000px"></div>
+            <div class="text-container">
+                <div class="text">
+                    <div class="background-section" style="background-image:url('https://www.thebavarianbrauhaus.com/wp-content/uploads/2014/11/Blobs-Park-write-up_Background.png?id=147'); background-size: cover; background-position: center; padding: 10px;">
+                        <div><h1>Abendessen - Dinner - Salads</h1></div><br>
+                        <div class="hero-full-wrapper">
+                            <div class="menu-item">
+                                <img src="https://www.thedailymeal.com/img/gallery/kid-in-canada-calls-911-twice-to-tell-police-he-hates-salad/SaladiStock-836788304.jpg" alt="Baverishcher Raditeller" class="food-image">
+                                <p><span class="menu-title">Brauhaus Salat</span></p> <p>Romaine, Grape Tomatoes, Cucumbers, Carrot, Red Onion, Croutons Add a side salad to any entree</p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://valentinascorner.com/wp-content/uploads/2021/05/Classic-Caesar-Salad-4.jpg" alt="Wurst Sampler Platter" class="food-image">
+                                <p><span class="menu-title">Caesar Salat</span><br>
+                                Romaine lettuce, Shaved Parmesan, Croutons</p>
+                            </div>
+                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-
+    </div>
 </body>
-
 </html>
