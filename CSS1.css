@@ -220,6 +220,10 @@ nav.sidebar {
 	display: flex;
 	
 }
+.grid-2{
+	display: flex;
+	margin-top: 20px;
+}
 
 .grid-item,.grid-sizer{width:100%;margin-bottom:1%}
 @media (min-width:768px)
