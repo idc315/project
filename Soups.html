@@ -1,15 +1,11 @@
-<html lang="en">
 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta name="keywords" content="German Restaurant, Restaurants in Maryland, Dinner, Family Restaurant, Restaurants in Hanover Maryland, Soups">
-    <title>Abendessen - Dinner | Bavarian Brauhaus</title>
-    <link rel="stylesheet" href="new 1.css">
+     <link rel="stylesheet" href="new 1.css">
     <script src="new 3.js"></script>
-</head>
-
-<body>
+    <title>Menu</title>
     <button id="nav-toggle" class="nav-toggle">☰</button>
     <nav id="nav-bar" class="nav-bar">
         <ul>
@@ -39,36 +35,87 @@
         </nav>
     </nav>
     <main id="main-collapse">
-        <div class="container">
-  <div style="margin: auto;">
-<div style="max-width: 1000px">
-  </div>
-        <div class="text-container">
-            <div class="text">
-              <div style="background-image:url(https://www.thebavarianbrauhaus.com/wp-content/uploads/2014/11/Blobs-Park-write-up_Background.png?id=147);background-size: cover; background-position: center; padding: 10px;">
-
-      <div><h1>Abendessen - Dinner - Soups</h1>
-        </div><br>
-
-        <div class="hero-full-wrapper">
-            <div class="grid">
-                <div class="gutter-sizer"></div>
-                <div class="grid-sizer"></div>
-                <p><span style="font-size: 25px; color: #993300;">Gulaschsuppe</span><br />
-                    Hearty Beef Soup with Potatoes, Carrots, Onions, Paprika
-Cup | Bowl<br />
-                    
-                    <p><span style="font-size: 25px; color: #993300;">Bierkasesuppe</span><br />
-                   Cheddar Beer Soup
-Cup| Bread Bowl
-Bacon on Request<br />
-                    <p><span style="font-size: 25px; color: #993300;">Cremekrabbensuppe</span><br />
-                       </span> Crab Soup (seasonal/Maryland Crab or Cream of Crab)
-Cup | Bowl</p>      
+  <style>
+        body {
+            font-family: 'Germania One';
+        }
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .text-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .text {
+            width: 100%;
+            max-width: 1000px;
+        }
+        .background-section {
+            background-size: cover;
+            background-position: center;
+            padding: 10px;
+        }
+        .hero-full-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .menu-item {
+            width: 45%;
+            border: 1px solid black;
+            margin: 10px 0;
+            padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .food-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .menu-title {
+            font-size: 25px;
+            color: #993300;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="margin: auto;">
+            <div style="max-width: 1000px"></div>
+            <div class="text-container">
+                <div class="text">
+                    <div class="background-section" style="background-image:url('https://www.thebavarianbrauhaus.com/wp-content/uploads/2014/11/Blobs-Park-write-up_Background.png?id=147'); background-size: cover; background-position: center; padding: 10px;">
+                        <div><h1>Abendessen - Dinner - Soups</h1></div><br>
+                        <div class="hero-full-wrapper">
+                            <div class="menu-item">
+                                <img src="https://media.istockphoto.com/id/471649243/photo/hot-stew-with-mushrooms.jpg?s=612x612&w=0&k=20&c=yct01oFMNvlTBKL-Mr0s0ZcZYYJsJzsiWJ_8KhA6_WQ=" class="food-image">
+                                <p><span class="menu-title">Gulaschsuppe</span><br>
+                                Hearty Beef Soup with Potatoes, Carrots, Onions, Paprika Cup | Bowl</p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://www.einfach-tasty.de/bilder/2023/04/12/92205545/31428859-nahaufnahme-einer-schale-gefuellt-mit-einer-cremigen-bier-kaese-suppe-getoppt-mit-brezel-croutons-schmorzwiebeln-und-schnittlauch-2m6Rjlb6zl70.jpg" class="food-image">
+                                <p><span class="menu-title">Bierkasesuppe</span><br>
+                                Cheddar Beer Soup Cup| Bread Bowl Bacon on Request</p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://eatahfoodtt.com/wp-content/uploads/2018/07/PUMPKIN-SOUP.jpg" alt="Hot Crab Dip with Bread Toast" class="food-image">
+                                <p><span class="menu-title">Cremekrabbensuppe</span></p> <p>Crab Soup (seasonal/Maryland Crab or Cream of Crab) Cup | Bowl</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-
+    </div>
 </body>
-
 </html>
