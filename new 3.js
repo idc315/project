@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     navToggle.addEventListener('click', () => {
         if (navBar.style.display === 'block') {
             navBar.style.display = 'none';
-            mainCollapse.style.marginLeft = '200px';
+            mainCollapse.style.marginLeft = '120px';
         } else {
             navBar.style.display = 'block';
             mainCollapse.style.marginLeft = '200px';
