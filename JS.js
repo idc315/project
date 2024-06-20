@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     navToggle.addEventListener('click', () => {
         if (navBar.style.display === 'block') {
             navBar.style.display = 'none';
-            mainCollapse.style.marginLeft = '0';
+            mainCollapse.style.marginLeft = '120px';
         } else {
             navBar.style.display = 'block';
             mainCollapse.style.marginLeft = '200px';
@@ -48,7 +48,4 @@ function myFunction() {
     } else {
         x.style.display = "none";
     }
-};
-
-
-
+}
