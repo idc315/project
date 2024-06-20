@@ -317,7 +317,28 @@ width:90%;top:0;bottom:0;left:0;right:0;margin:5%;text-decoration:none;z-index:2
     z-index: 0;
 }
 
-#hide_Div {
-    font-size: 15px;
-    color: yellow;
-}
+.hero-full-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+.menu-item {
+            width: 45%;
+            border: 1px solid black;
+            margin: 10px 0;
+            padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+ .food-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+.menu-title {
+            font-size: 25px;
+            color: #993300;
+        }
