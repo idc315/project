@@ -16,6 +16,43 @@ body {
     transition: margin-left 0.1s;
 }
 
+.slideshow-container {
+  position: relative;
+  z-index: 500; 
+  max-width: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+.slide {
+  display: none;
+}
+.slide img {
+  width: 100%;
+  height: auto;
+}
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+
+
 #main-collapse {
     padding: 20px;
     margin-left: 120px; 
