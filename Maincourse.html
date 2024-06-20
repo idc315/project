@@ -1,15 +1,11 @@
-<html lang="en">
 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta name="keywords" content="German Restaurant, Restaurants in Maryland, Dinner, Family Restaurant, Bar, Restaurants in Hanover Maryland, Main course"> 
-    <title>Abendessen - Dinner | Bavarian Brauhaus</title>
-    <link rel="stylesheet" href="new 1.css">
+     <link rel="stylesheet" href="new 1.css">
     <script src="new 3.js"></script>
-</head>
-
-<body>
+    <title>Menu</title>
     <button id="nav-toggle" class="nav-toggle">☰</button>
     <nav id="nav-bar" class="nav-bar">
         <ul>
@@ -39,23 +35,71 @@
         </nav>
     </nav>
     <main id="main-collapse">
-        <div class="container">
-  <div style="margin: auto;">
-<div style="max-width: 1000px">
-  </div>
-        <div class="text-container">
-            <div class="text">
-              <div style="background-image:url(https://www.thebavarianbrauhaus.com/wp-content/uploads/2014/11/Blobs-Park-write-up_Background.png?id=147);background-size: cover; background-position: center; padding: 10px;">
-
-      <div><h1>Abendessen - Dinner - Main Course</h1>
-        </div><br>
-
-        <div class="hero-full-wrapper">
-            <div class="grid">
-                <div class="gutter-sizer"></div>
-                <div class="grid-sizer"></div>
-                <p><span style="font-size: 25px; color: #993300;">Brauhaus Wurstplatte</span><br />
-                    Choice of Two German Sausages:
+  <style>
+        body {
+            font-family: 'Germania One';
+        }
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .text-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .text {
+            width: 100%;
+            max-width: 1000px;
+        }
+        .background-section {
+            background-size: cover;
+            background-position: center;
+            padding: 10px;
+        }
+        .hero-full-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .menu-item {
+            width: 45%;
+            border: 1px solid black;
+            margin: 10px 0;
+            padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .food-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .menu-title {
+            font-size: 25px;
+            color: #993300;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="margin: auto;">
+            <div style="max-width: 1000px"></div>
+            <div class="text-container">
+                <div class="text">
+                    <div class="background-section" style="background-image:url('https://www.thebavarianbrauhaus.com/wp-content/uploads/2014/11/Blobs-Park-write-up_Background.png?id=147'); background-size: cover; background-position: center; padding: 10px;">
+                        <div><h1>Abendessen - Dinner - Main Course</h1></div><br>
+                        <div class="hero-full-wrapper">
+                            <div class="menu-item">
+                                <img src="https://www.barleber-fleischerei.de/wp-content/uploads/2020/02/Hausmacherplatte20.jpg" alt="Baverishcher Raditeller" class="food-image">
+                                <p><span class="menu-title">Brauhaus Wurstplatte</span><br>
+                                Choice of Two German Sausages:
               <p>– Bavarian Bratwurst-Pork Sausage</p>
  <p>– Bavarian Weisswurst-Veal Sausage</p>
  <p>– Knackwurst-Beef and Pork Sausage flavored with garlic</p>
@@ -64,23 +108,30 @@
  <p>– Apple Bratwurst-Apple Infused Brat</p>
  <p>– Currywurst- bratwurst infused with touch of curry</p>
  <p>– Bierwurst- bratwurst infused with beer
-</p><br />
-                    
-                    <p><span style="font-size: 25px; color: #993300;">Fleisch – Meat</span><br />
-                <p>– Kassler Rippchen: Smoked Pork Loin, bone-in</p>
+</p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://cdn8.dissolve.com/p/D1062_20_572/D1062_20_572_1200.jpg" class="food-image">
+                                <p><span class="menu-title">Fleisch – Meat</span><br>
+                                – Kassler Rippchen: Smoked Pork, bone-in</p>
  <p>– Sauerbraten: Slow braised wine and vinegar marinated beef with pan dripping gravy</p>
  <p>– Münchner Schweinhaxe: Braised Pork Shank</p>
  <p>– Jaegerschnitzel: Breaded Pork Cutlet topped with Burgundy Wine Mushroom Sauce with Smoked Bacon</p>
- <p>– Wienerschnitzel: Lightly Breaded and Fried Veal Cutlet</p><br />
-                    <p><span style="font-size: 25px; color: #993300;">Meeresfruchte – Seafood</span><br />
-                 <p>– Crab Cakes: Two Jumbo Lump Crab Cakes + Broiled or Fried, Served with Lemon Aioli Sauce</p>
+ <p>– Wienerschnitzel: Lightly Breaded and Fried Veal Cutlet</p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://thumbs.dreamstime.com/b/risotto-seafoods-shrimps-mussels-octopus-clams-tomatoes-risotto-seafoods-shrimps-mussels-octopus-clams-tomatoes-154152279.jpg" alt="Hot Crab Dip with Bread Toast" class="food-image">
+                                <p><span class="menu-title">Meeresfruchte – Seafood</span></p><p>– Crab Cakes: Two Jumbo Lump Crab Cakes + Broiled or Fried, Served with Lemon Aioli Sauce</p>
  <p>– Baked Flounder-chive sauce</p>
  <p>– Baked Flounder With Crab Imperial</p>
  <p>– Brauhaus Macaroni and Cheese</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-
+    </div>
 </body>
-
 </html>
