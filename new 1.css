@@ -55,7 +55,6 @@ body {
 
 #main-collapse {
     padding: 20px;
-    margin-left: 120px; 
     transition: margin-left 0.3s;
 }
 
